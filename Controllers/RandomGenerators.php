@@ -6,7 +6,7 @@
 
 /* * ************************************ */
 
-function roomPosition($width, $height) {
+function roomPosition($max_x, $max_y) {
     $coordinates = array();
     $max_x = 5;
     $max_y = 5;
@@ -19,6 +19,8 @@ function roomPosition($width, $height) {
     return $coordinates;
 }
 
+
+// Function that defines the dimensions of to-be-created room.
 function roomArea($dungeon_area) {
     $room_area = array();
     $max_x = 8;
